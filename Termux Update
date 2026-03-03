@@ -1,0 +1,15 @@
+pkg upgrade
+pkg update
+pkg install git
+pkg install python
+pkg install python2
+pkg install pip
+pkg install pip3
+
+---or---
+apt update && apt upgrade -y
+pkg install git
+pkg install python
+git clone https://github.com/evandipro2004/TERMUX-SETUP
+cd TERMUX-SETUP
+python tsetup.py
